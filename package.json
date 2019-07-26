@@ -6,7 +6,7 @@
   "author": "Brittany Hartmire",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "nodemon server/index.js",
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "migrate": "knex migrate:latest --knexfile models/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile models/knexfile.js ",
@@ -16,6 +16,8 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.16.4",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
     "knex": "^0.19.1",
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
