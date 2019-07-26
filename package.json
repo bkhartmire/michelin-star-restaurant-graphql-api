@@ -1,0 +1,33 @@
+{
+  "name": "michelin-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bkhartmire/cc9-michelin-restaurant-api.git",
+  "author": "Brittany Hartmire",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node index.js",
+    "migrate": "knex migrate:latest --knexfile models/knexfile.js",
+    "rollback": "knex migrate:rollback --knexfile models/knexfile.js ",
+    "lint": "eslint --fix --ext .js ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "knex": "^0.19.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-config-problems": "^2.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.0",
+    "pretty-quick": "^1.10.0"
+  }
+}
