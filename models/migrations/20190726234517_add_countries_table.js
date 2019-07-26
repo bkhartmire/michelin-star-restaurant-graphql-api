@@ -1,5 +1,5 @@
 exports.up = function(knex) {
-  return knex.schema.createTable("cuisines", t => {
+  return knex.schema.createTable("countries", t => {
     t.increments().index();
     t.string("name")
       .unique()
@@ -8,5 +8,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-  return knex.schema.dropTable("cuisines");
+  return knex.schema.dropTable("countries");
 };
