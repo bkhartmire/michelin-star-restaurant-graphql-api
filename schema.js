@@ -11,16 +11,29 @@ const schema = buildSchema(`
 
     type City {
         name: String
-        country: String
+    }
+
+    type Restaurant {
+        name: String
+        cuisine: Cuisine
+        city: City
+        stars: Int
+        price: String
     }
 
     type Query {
         Cuisines: [Cuisine]
-        Cuisine: Cuisine
+        Cuisine(name: String!): Cuisine
         Countries: [Country]
-        Country: Country
+        Country(name: String!): Country
         Cities: [City]
-        City: City
+        City(name: String!): City
+        Restaurants: [Restaurant]
+        Restaurant(name: String!): Restaurant
+    }
+
+    type Mutation {
+        
     }
 `);
 
