@@ -1,9 +1,9 @@
 const config = require("./config");
 // const services = require("./services")(config);
-const knex = require("knex")(config.db);
+// const knex = require("knex")(config.db);
 // const models = require("./models")(knex);
 // const apiRouter = require("./controllers")(models);
-const morgan = require("morgan"); // a popular library for logging your requests
+// const morgan = require("morgan"); // a popular library for logging your requests
 // const bodyParser = require("body-parser"); // a middleware plugin to enable express to parse JSON
 const express = require("express");
 const graphqlHTTP = require("express-graphql");
@@ -12,21 +12,21 @@ const schema = require("./schema");
 const root = require("./root");
 
 // 1. log every request when it comes in
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 
 // 2. Set the headers for incoming requests
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Methods",
-    "GET,PUT,POST,DELETE,OPTIONS,PATCH"
-  );
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, authorization"
-  );
-  next();
-});
+// app.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header(
+//     "Access-Control-Allow-Methods",
+//     "GET,PUT,POST,DELETE,OPTIONS,PATCH"
+//   );
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content-Type, Accept, authorization"
+//   );
+//   next();
+// });
 
 // 3. Parse request bodies as json
 // app.use(bodyParser.json({ type: "application/json", limit: "50mb" }));

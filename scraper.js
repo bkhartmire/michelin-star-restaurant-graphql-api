@@ -67,14 +67,6 @@ const scraper = () => {
 
 const getRestaurants = async () => {
   await scraper();
-  // console.log(restaurantSeeds.length);
-  // console.log(restaurantSeeds.slice(500, 600));
-  // console.log(restaurantSeeds.slice(600));
-  // //66
-  // console.log("cuisine length ", cuisineSeeds.length);
-  // console.log(cuisineSeeds.slice(0, 100));
-  //220
-  console.log(citySeeds.slice(200));
 };
 
 getRestaurants();
