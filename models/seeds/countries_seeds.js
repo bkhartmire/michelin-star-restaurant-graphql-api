@@ -11,7 +11,7 @@ exports.seed = function(knex) {
         { name: "Spain" },
         { name: "Germany" },
         { name: "Hong Kong" },
-        { name: "Macau" },
+        { name: "Macao" },
         { name: "Italy" },
         { name: "United Kingdom" },
         { name: "Netherlands" },
@@ -23,7 +23,18 @@ exports.seed = function(knex) {
         { name: "Norway" },
         { name: "South Korea" },
         { name: "Sweden" },
-        { name: "Taiwan" }
+        { name: "Taiwan" },
+        { name: "Republic of Ireland" },
+        { name: "Singapore" },
+        { name: "Thailand" },
+        { name: "Austria" },
+        { name: "Croatia" },
+        { name: "Norway" },
+        { name: "Czech Republic" },
+        { name: "Finland" },
+        { name: "Hungary" },
+        { name: "Greece" },
+        { name: "Iceland" }
       ]);
     });
 };

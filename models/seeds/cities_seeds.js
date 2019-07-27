@@ -37,7 +37,7 @@ exports.seed = function(knex) {
         { name: "Saarbrücken", country_name: "Germany" },
         { name: "Wolfsburg", country_name: "Germany" },
         { name: "Hong Kong", country_name: "Hong Kong" },
-        { name: "Macau", country_name: "Macau" },
+        { name: "Macao", country_name: "Macao" },
         { name: "Alba", country_name: "Italy" },
         { name: "Brusaporto", country_name: "Italy" },
         { name: "Canneto sull'Oglio", country_name: "Italy" },

@@ -6,7 +6,12 @@ exports.up = function(knex) {
     t.foreign("city_name")
       .references("name")
       .inTable("cities");
-    //add cuisines
+    t.string("cuisine_name");
+    t.foreign("cuisine_name")
+      .references("name")
+      .inTable("cuisines");
+    t.enu("stars", [1, 2, 3]).notNullable();
+    t.enu("price", ["$", "$$", "$$$", "$$$$", "$$$$$"]);
   });
 };
 
