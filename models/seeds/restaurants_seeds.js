@@ -316,7 +316,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$",
           cuisine_name: "French",
-          city_name: ""
+          city_name: "Hong Kong"
         },
         {
           name: "Yè Shanghai (Tsim Sha Tsui)",
@@ -1205,42 +1205,42 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Palace",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Olo",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Demo",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Grön",
           stars: 1,
           price: "$$$",
           cuisine_name: "Finnish",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Ora",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Helsingfors / Helsinki"
+          city_name: "Helsinki"
         },
         {
           name: "Fäviken Magasinet",
@@ -1660,7 +1660,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$$",
           cuisine_name: "Korean",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Commis",
@@ -1709,35 +1709,35 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$",
           cuisine_name: "Contemporary",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Baumé",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Chez TJ",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Plumed Horse",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Manresa",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "South San Francisco"
+          city_name: "San Francisco"
         },
         {
           name: "Kontrast",
@@ -1898,105 +1898,105 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$$",
           cuisine_name: "Creative",
-          city_name: "København   Ø"
+          city_name: "København"
         },
         {
           name: "noma",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Creative",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Kokkeriet",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "a‚o‚c",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "108",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Clou",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Stud!o at The Standard",
           stars: 1,
           price: "$$$",
           cuisine_name: "Creative",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Marchal",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Kiin Kiin",
           stars: 1,
           price: "$$",
           cuisine_name: "Thai",
-          city_name: "København   N"
+          city_name: "København"
         },
         {
           name: "Kong Hans Kælder",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Classic French",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Era Ora",
           stars: 1,
           price: "$$",
           cuisine_name: "Italian",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Kadeau Copenhagen",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   K"
+          city_name: "København"
         },
         {
           name: "Relæ",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   N"
+          city_name: "København"
         },
         {
           name: "Alouette",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   S"
+          city_name: "København"
         },
         {
           name: "formel B",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København   C"
+          city_name: "København"
         },
         {
           name: "Slotskøkkenet",
@@ -2654,28 +2654,28 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Shoreditch  ECV LT"
+          city_name: "London"
         },
         {
           name: "Brat",
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Shoreditch  E JL"
+          city_name: "London"
         },
         {
           name: "Lyle's",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Shoreditch  E JJ"
+          city_name: "London"
         },
         {
           name: "Leroy",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Shoreditch  ECA NU"
+          city_name: "London"
         },
         {
           name: "Galvin La Chapelle",
@@ -2696,7 +2696,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "City of London  ECN HQ"
+          city_name: "London"
         },
         {
           name: "St John",
@@ -2710,14 +2710,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern French",
-          city_name: "City of London  ECN AJ"
+          city_name: "London"
         },
         {
           name: "Club Gascon",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "London  ECA DS"
+          city_name: "London"
         },
         {
           name: "Story",
@@ -2731,28 +2731,28 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Bloomsbury  WT QG"
+          city_name: "London"
         },
         {
           name: "Pied à Terre",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Bloomsbury  WT NH"
+          city_name: "London"
         },
         {
           name: "The Ninth",
           stars: 1,
           price: null,
           cuisine_name: "Mediterranean cuisine",
-          city_name: "Bloomsbury  WT NB"
+          city_name: "London"
         },
         {
           name: "Hakkasan Hanway Place",
           stars: 1,
           price: null,
           cuisine_name: "Chinese",
-          city_name: "Bloomsbury  WT HD"
+          city_name: "London"
         },
         {
           name: "Portland",
@@ -2766,21 +2766,21 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Spanish",
-          city_name: "Soho  WD LL"
+          city_name: "London"
         },
         {
           name: "Yauatcha Soho",
           stars: 1,
           price: null,
           cuisine_name: "Chinese",
-          city_name: "Soho  WF DL"
+          city_name: "London"
         },
         {
           name: "Social Eating House",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Soho  WF NR"
+          city_name: "London"
         },
         {
           name: "Roganic",
@@ -3368,35 +3368,35 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Bath  BA QF"
+          city_name: "Bath"
         },
         {
           name: "wilks",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Bristol  BS PG"
+          city_name: "Bristol"
         },
         {
           name: "Bulrush",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Bristol  BS TZ"
+          city_name: "Bristol"
         },
         {
           name: "Casamia",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Bristol  BS FU"
+          city_name: "Bristol"
         },
         {
           name: "Paco Tapas",
           stars: 1,
           price: null,
           cuisine_name: "Spanish",
-          city_name: "Bristol  BS FU"
+          city_name: "Bristol"
         },
         {
           name: "Pony & Trap",
@@ -3417,14 +3417,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Gaillimh/Galway"
+          city_name: "Galway"
         },
         {
           name: "Aniar",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Gaillimh/Galway"
+          city_name: "Galway"
         },
         {
           name: "Campagne",
@@ -3501,14 +3501,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Seafood",
-          city_name: "Port Isaac  PL SB"
+          city_name: "Port Isaac"
         },
         {
           name: "Outlaw's Fish Kitchen",
           stars: 1,
           price: null,
           cuisine_name: "Seafood",
-          city_name: "Port Isaac  PL RH"
+          city_name: "Port Isaac"
         },
         {
           name: "Paul Ainsworth at No.6",
@@ -4203,7 +4203,132 @@ exports.seed = function(knex) {
           cuisine_name: "Contemporary",
           city_name: "New York"
         },
-        
+        {
+          name: "Faro",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "American",
+          city_name: "New York"
+        },
+        {
+          name: "The Finch",
+          stars: 1,
+          price: "$$$",
+          cuisine_name: "American",
+          city_name: "New York"
+        },
+        {
+          name: "Claro",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "Mexican",
+          city_name: "New York"
+        },
+        {
+          name: "The Inn at Little Washington",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "American",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Tail Up Goat",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Bresca",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Blue Duck Tavern",
+          stars: 1,
+          price: "$$$",
+          cuisine_name: "American",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Komi",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Mediterranean",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Sushi Taro",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Japanese",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Plume",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "European",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "The Dabney",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "American",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Métier",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Kinship",
+          stars: 1,
+          price: "$$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Masseria",
+          stars: 1,
+          price: "$$$",
+          cuisine_name: "Italian",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "minibar",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Fiola",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Italian",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Pineapple and Pearls",
+          stars: 1,
+          price: "$$$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        },
+        {
+          name: "Rose's Luxury",
+          stars: 1,
+          price: "$$",
+          cuisine_name: "Contemporary",
+          city_name: "Washington, D.C."
+        }
       ]);
     });
 };
