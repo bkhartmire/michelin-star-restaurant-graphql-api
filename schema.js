@@ -9,8 +9,18 @@ const schema = buildSchema(`
         name: String
     }
 
+    type City {
+        name: String
+        country: String
+    }
+
     type Query {
         Cuisines: [Cuisine]
+        Cuisine: Cuisine
+        Countries: [Country]
+        Country: Country
+        Cities: [City]
+        City: City
     }
 `);
 
