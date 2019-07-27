@@ -505,7 +505,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$",
           cuisine_name: "Innovative",
-          city_name: ""
+          city_name: "Hong Kong"
         },
         {
           name: "Écriture",
@@ -2458,7 +2458,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Aughto"
+          city_name: "Aughton"
         },
         {
           name: "Restaurant Sat Bains",
@@ -3018,7 +3018,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "B"
+          city_name: "London"
         },
         {
           name: "A. Wong",
@@ -3347,21 +3347,21 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: ""
+          city_name: "Colerne"
         },
         {
           name: "Red Lion Freehouse",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "East Chi"
+          city_name: "East Chisenbury"
         },
         {
           name: "Black Rat",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Win"
+          city_name: "Winchester"
         },
         {
           name: "Olive Tree",

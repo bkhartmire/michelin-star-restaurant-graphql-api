@@ -1,7 +1,7 @@
 exports.up = function(knex) {
   return knex.schema.createTable("restaurants", t => {
     t.increments().index();
-    t.string("name").unique();
+    t.string("name").notNullable();
     t.string("city_name");
     t.foreign("city_name")
       .references("name")
