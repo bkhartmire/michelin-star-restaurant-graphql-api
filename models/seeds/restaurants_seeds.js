@@ -1877,7 +1877,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "SAV",
@@ -1891,112 +1891,112 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$",
           cuisine_name: "Danish",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Geranium",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Creative",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "noma",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Creative",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Kokkeriet",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "a‚o‚c",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "108",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Clou",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Stud!o at The Standard",
           stars: 1,
           price: "$$$",
           cuisine_name: "Creative",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Marchal",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Kiin Kiin",
           stars: 1,
           price: "$$",
           cuisine_name: "Thai",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Kong Hans Kælder",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Classic French",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Era Ora",
           stars: 1,
           price: "$$",
           cuisine_name: "Italian",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Kadeau Copenhagen",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Relæ",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Alouette",
           stars: 1,
           price: "$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "formel B",
           stars: 1,
           price: "$$",
           cuisine_name: "Modern cuisine",
-          city_name: "København"
+          city_name: "Copenhagen"
         },
         {
           name: "Slotskøkkenet",
@@ -2129,175 +2129,175 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Creative",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Mraz & Sohn",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Creative",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Das Loft",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Konstantin Filippou",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Edvard",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Walter Bauer",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Classic cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Pramerl & the Wolf",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Creative",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Silvio Nickol Gourmet Restaurant",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Steirereck im Stadtpark",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Creative",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Tian",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Vegetarian",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "SHIKI",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Japanese",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Le Ciel by Toni Mörwald",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Classic cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "aend",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
-          city_name: "Wien"
+          city_name: "Vienna"
         },
         {
           name: "Loch Bay",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Waternish  IV GA"
+          city_name: "Waternish"
         },
         {
           name: "The Cellar",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Anstruther  KY AA"
+          city_name: "Anstruther"
         },
         {
           name: "The Peat Inn",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Peat Inn  KY LH"
+          city_name: "Peat Inn"
         },
         {
           name: "Andrew Fairlie at Gleneagles",
           stars: 1,
           price: null,
           cuisine_name: "Creative French",
-          city_name: "Auchterarder  PH NF"
+          city_name: "Auchterarder"
         },
         {
           name: "Kitchin",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Leith  EH LX"
+          city_name: "Leith"
         },
         {
           name: "Martin Wishart",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Leith  EH RA"
+          city_name: "Leith"
         },
         {
           name: "21212",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Edinburgh  EH AB"
+          city_name: "Edinburgh"
         },
         {
           name: "Number One",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Edinburgh  EH EQ"
+          city_name: "Edinburgh"
         },
         {
           name: "House of Tides",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Newcastle upon Tyne  NE RF"
+          city_name: "Newcastle upon Tyne"
         },
         {
           name: "Braidwoods",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Dalry  KA LN"
+          city_name: "Dalry"
         },
         {
           name: "Raby Hunt",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Summerhouse  DL UD"
+          city_name: "Summerhouse"
         },
         {
           name: "Pfefferschiff",
           stars: 1,
           price: "$$$$$",
           cuisine_name: "Classic cuisine",
-          city_name: "Hallwang"
+          city_name: "Salzburg"
         },
         {
           name: "SENNS.Restaurant",
@@ -2332,14 +2332,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Harome  YO JE"
+          city_name: "Harome"
         },
         {
           name: "Black Swan",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Oldstead  YO BL"
+          city_name: "Oldstead"
         },
         {
           name: "Noel",
@@ -2353,126 +2353,126 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "South Dalton  HU PN"
+          city_name: "South Dalton"
         },
         {
           name: "Yorke Arms",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Pateley Bridge  HG RL"
+          city_name: "Pateley Bridge"
         },
         {
           name: "Winteringham Fields",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Winteringham  DN ND"
+          city_name: "Winteringham"
         },
         {
           name: "Forest Side",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Grasmere  LA RN"
+          city_name: "Grasmere"
         },
         {
           name: "Morston Hall",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Morston  NR AA"
+          city_name: "Morston"
         },
         {
           name: "HRiSHi",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "BownessonWindermere  LA NE"
+          city_name: "Bownesson-on-Windermere"
         },
         {
           name: "The Man Behind The Curtain",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Leeds  LS JH"
+          city_name: "Leeds"
         },
         {
           name: "L'Enclume",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Cartmel  LA PZ"
+          city_name: "Cartmel"
         },
         {
           name: "Rogan & Co",
           stars: 1,
           price: null,
           cuisine_name: "Creative British",
-          city_name: "Cartmel  LA QD"
+          city_name: "Cartmel"
         },
         {
           name: "The Neptune",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Hunstanton  PE HZ"
+          city_name: "Hunstanton"
         },
         {
           name: "White Swan",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Fence  BB QA"
+          city_name: "Fence"
         },
         {
           name: "Northcote",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Langho  BB BE"
+          city_name: "Langho"
         },
         {
           name: "Fischer's at Baslow Hall",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Baslow  DE RR"
+          city_name: "Baslow"
         },
         {
           name: "OX",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Belfast  BT LA"
+          city_name: "Belfast"
         },
         {
           name: "Eipic",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Belfast  BT PF"
+          city_name: "Belfast"
         },
         {
           name: "Moor Hall",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Aughton  L RT"
+          city_name: "Aughto"
         },
         {
           name: "Restaurant Sat Bains",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Nottingham  NG SA"
+          city_name: "Nottingham"
         },
         {
           name: "Hambleton Hall",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Upper Hambleton  LE TH"
+          city_name: "Upper Hambleton"
         },
         {
           name: "Draga di Lovrana",
@@ -2486,14 +2486,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Mountsorrel  LE AR"
+          city_name: "Mountsorrel"
         },
         {
           name: "Fraiche",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Birkenhead  CH SG"
+          city_name: "Birkenhead"
         },
         {
           name: "360º",
@@ -2507,14 +2507,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Cambridge  CB HA"
+          city_name: "Cambridge"
         },
         {
           name: "Simon Radley at Chester Grosvenor",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Chester  CH LT"
+          city_name: "Chester"
         },
         {
           name: "Botrini's",
@@ -2535,7 +2535,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Little Dunmow  CM HT"
+          city_name: "Little Dunmow"
         },
         {
           name: "Spondi",
@@ -2577,77 +2577,77 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Creative British",
-          city_name: "Hampton in Arden  B ODQ"
+          city_name: "Hampton in Arden"
         },
         {
           name: "Purnell's",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Birmingham  B DH"
+          city_name: "Birmingham"
         },
         {
           name: "Adam's",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Birmingham  B UG"
+          city_name: "Birmingham"
         },
         {
           name: "The Cross at Kenilworth",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Kenilworth  CV EZ"
+          city_name: "Kenilworth"
         },
         {
           name: "Simpsons",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Birmingham  B DU"
+          city_name: "Birmingham"
         },
         {
           name: "Carters of Moseley",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Birmingham  B EZ"
+          city_name: "Birmingham"
         },
         {
           name: "Sosban & The Old Butchers",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Menai Bridge/Porthaethwy  LL EE"
+          city_name: "Menai Bridge"
         },
         {
           name: "Fordwich Arms",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Fordwich  CT DB"
+          city_name: "Fordwich"
         },
         {
           name: "The Sportsman",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Seasalter  CT BP"
+          city_name: "Seasalter"
         },
         {
           name: "Tyddyn Llan",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Llandrillo  LL OST"
+          city_name: "Llandrillo"
         },
         {
           name: "Salt",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "StratforduponAvon  CV HB"
+          city_name: "Stratford-upon-Avon"
         },
         {
           name: "The Clove Club",
@@ -2682,14 +2682,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Spitalfields  E DY"
+          city_name: "London"
         },
         {
           name: "Angler",
           stars: 1,
           price: null,
           cuisine_name: "Seafood",
-          city_name: "Finsbury  ECM AF"
+          city_name: "London"
         },
         {
           name: "City Social",
@@ -2703,7 +2703,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Clerkenwell  ECM AY"
+          city_name: "London"
         },
         {
           name: "La Dame de Pic",
@@ -2724,7 +2724,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Bermondsey  SE JX"
+          city_name: "London"
         },
         {
           name: "Kitchen Table at Bubbledogs",
@@ -2759,7 +2759,7 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Regent's Park  WW QQ"
+          city_name: "London"
         },
         {
           name: "Barrafina",
@@ -2787,581 +2787,581 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Creative British",
-          city_name: "Marylebone  WU DB"
+          city_name: "London"
         },
         {
           name: "Trishna",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Marylebone  WU DG"
+          city_name: "London"
         },
         {
           name: "Pollen Street Social",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Mayfair  WS NQ"
+          city_name: "London"
         },
         {
           name: "Sketch (The Lecture Room & Library)",
           stars: 1,
           price: null,
           cuisine_name: "Modern French",
-          city_name: "Mayfair  WS XG"
+          city_name: "London"
         },
         {
           name: "Ikoyi",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Saint James's  SWY AH"
+          city_name: "London"
         },
         {
           name: "The Araki",
           stars: 1,
           price: null,
           cuisine_name: "Japanese",
-          city_name: "Mayfair  WS BF"
+          city_name: "London"
         },
         {
           name: "Sabor",
           stars: 1,
           price: null,
           cuisine_name: "Spanish",
-          city_name: "Mayfair  WB BR"
+          city_name: "London"
         },
         {
           name: "Aquavit",
           stars: 1,
           price: null,
           cuisine_name: "Scandinavian",
-          city_name: "Saint James's  SWY QQ"
+          city_name: "London"
         },
         {
           name: "Veeraswamy",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Mayfair  WB RS"
+          city_name: "London"
         },
         {
           name: "Alyn Williams at The Westbury",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Mayfair  WS YF"
+          city_name: "London"
         },
         {
           name: "Umu",
           stars: 1,
           price: null,
           cuisine_name: "Japanese",
-          city_name: "Mayfair  WJ LX"
+          city_name: "London"
         },
         {
           name: "The Square",
           stars: 1,
           price: null,
           cuisine_name: "Creative French",
-          city_name: "Mayfair  WJ PU"
+          city_name: "London"
         },
         {
           name: "Locanda Locatelli",
           stars: 1,
           price: null,
           cuisine_name: "Italian",
-          city_name: "Marylebone  WH JZ"
+          city_name: "London"
         },
         {
-          name: "Hakkasan Mayfair",
+          name: "Hakkasan London",
           stars: 1,
           price: null,
           cuisine_name: "Chinese",
-          city_name: "Mayfair  WJ QB"
+          city_name: "London"
         },
         {
           name: "Texture",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Marylebone  WH BY"
+          city_name: "London"
         },
         {
           name: "Gymkhana",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Mayfair  WS JH"
+          city_name: "London"
         },
         {
           name: "Benares",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Mayfair  WJ BS"
+          city_name: "London"
         },
         {
           name: "Ritz Restaurant",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Westminster  WJ BR"
+          city_name: "London"
         },
         {
           name: "Hélène Darroze at The Connaught",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Mayfair  WK AL"
+          city_name: "London"
         },
         {
           name: "Seven Park Place",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Saint James's  SWA LS"
+          city_name: "London"
         },
         {
           name: "Le Gavroche",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Mayfair  WK QR"
+          city_name: "London"
         },
         {
           name: "Hide",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Mayfair  WJ NB"
+          city_name: "London"
         },
         {
           name: "Murano",
           stars: 1,
           price: null,
           cuisine_name: "Italian",
-          city_name: "Mayfair  WJ PP"
+          city_name: "London"
         },
         {
           name: "Kai",
           stars: 1,
           price: null,
           cuisine_name: "Chinese",
-          city_name: "Mayfair  WK QU"
+          city_name: "London"
         },
         {
           name: "Greenhouse",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Mayfair  WJ NY"
+          city_name: "London"
         },
         {
           name: "Alain Ducasse at The Dorchester",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Mayfair  WK QA"
+          city_name: "London"
         },
         {
           name: "Galvin at Windows",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Mayfair  WK BE"
+          city_name: "London"
         },
         {
           name: "Quilon",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Victoria  SWE AF"
+          city_name: "London"
         },
         {
           name: "Céleste",
           stars: 1,
           price: null,
           cuisine_name: "Creative French",
-          city_name: "Belgravia  SWX TA"
+          city_name: "London"
         },
         {
           name: "Marcus",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Belgravia  SWX RL"
+          city_name: "London"
         },
         {
           name: "Dining Room at The Goring",
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Victoria  SWW JW"
+          city_name: "London"
         },
         {
           name: "Dinner by Heston Blumenthal",
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Hyde Park  SWX LA"
+          city_name: "London"
         },
         {
           name: "Ledbury",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "North Kensington  W AQ"
+          city_name: "London"
         },
         {
           name: "Pétrus",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Belgravia  SWX EA"
+          city_name: "B"
         },
         {
           name: "A. Wong",
           stars: 1,
           price: null,
           cuisine_name: "Chinese",
-          city_name: "Victoria  SWV DE"
+          city_name: "London"
         },
         {
           name: "Amaya",
           stars: 1,
           price: null,
           cuisine_name: "Indian",
-          city_name: "Belgravia  SWX JT"
+          city_name: "London"
         },
         {
           name: "CORE by Clare Smyth",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "North Kensington  W PN"
+          city_name: "London"
         },
         {
           name: "Five Fields",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Chelsea  SW SP"
+          city_name: "London"
         },
         {
           name: "Claude Bosi at Bibendum",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Chelsea  SW RD"
+          city_name: "London"
         },
         {
           name: "Elystan Street",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Chelsea  SW NT"
+          city_name: "London"
         },
         {
           name: "Kitchen W8",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Kensington  W AH"
+          city_name: "London"
         },
         {
           name: "Gordon Ramsay",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Chelsea  SW HP"
+          city_name: "London"
         },
         {
           name: "The Checkers",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Montgomery/Trefaldwyn  SY PN"
+          city_name: "Montgomery"
         },
         {
           name: "Trinity",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Clapham Common  SW JG"
+          city_name: "London"
         },
         {
           name: "Harwood Arms",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Fulham  SW QP"
+          city_name: "London"
         },
         {
           name: "Nut Tree",
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Murcott  OX RE"
+          city_name: "Murcott"
         },
         {
           name: "River Café",
           stars: 1,
           price: null,
           cuisine_name: "Italian",
-          city_name: "Hammersmith  W HA"
+          city_name: "London"
         },
         {
           name: "La Trompette",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Chiswick  W EU"
+          city_name: "London"
         },
         {
           name: "Chez Bruce",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Wandsworth  SW EG"
+          city_name: "London"
         },
         {
           name: "The Glasshouse",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Kew  TW PZ"
+          city_name: "London"
         },
         {
           name: "West House",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Biddenden  TN AH"
+          city_name: "Biddenden"
         },
         {
           name: "Belmond Le Manoir aux Quat' Saisons",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Great Milton  OX PD"
+          city_name: "Great Milton"
         },
         {
           name: "Oxford Kitchen",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Oxford  OX HQ"
+          city_name: "Oxford"
         },
         {
           name: "The Coach",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Marlow  SL LS"
+          city_name: "Marlow"
         },
         {
           name: "Hand and Flowers",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Marlow  SL BP"
+          city_name: "Marlow"
         },
         {
           name: "Hinds Head",
           stars: 1,
           price: null,
           cuisine_name: "Traditional British",
-          city_name: "Bray  SL AB"
+          city_name: "Bray"
         },
         {
           name: "Fat Duck",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Bray  SL AQ"
+          city_name: "Bray"
         },
         {
           name: "Waterside Inn",
           stars: 1,
           price: null,
           cuisine_name: "Classic French",
-          city_name: "Bray  SL AT"
+          city_name: "Bray"
         },
         {
           name: "Crown",
           stars: 1,
           price: null,
           cuisine_name: "Regional cuisine",
-          city_name: "Burchett's Green  SL QZ"
+          city_name: "Burchett's Green"
         },
         {
           name: "Tudor Room",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Egham  TW UR"
+          city_name: "Egham"
         },
         {
           name: "Chapter One",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "City Centre  D"
+          city_name: "Dublin"
         },
         {
           name: "Patrick Guilbaud",
           stars: 1,
           price: null,
           cuisine_name: "Modern French",
-          city_name: "City Centre  D"
+          city_name: "Dublin"
         },
         {
           name: "Greenhouse",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "City Centre  D"
+          city_name: "Dublin"
         },
         {
           name: "L'Ecrivain",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "City Centre  D"
+          city_name: "Dublin"
         },
         {
           name: "Coworth Park",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Ascot  SL SE"
+          city_name: "Ascot"
         },
         {
           name: "Heron & Grey",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Blackrock"
+          city_name: "Dublin"
         },
         {
           name: "Ynyshir",
           stars: 1,
           price: null,
           cuisine_name: "Creative",
-          city_name: "Machynlleth  SY TA"
+          city_name: "Machynlleth"
         },
         {
           name: "Le Champignon Sauvage",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Cheltenham  GL AQ"
+          city_name: "Cheltenham"
         },
         {
           name: "Clock House",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Ripley  GU AQ"
+          city_name: "Ripley"
         },
         {
           name: "Sorrel",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Dorking  RH JU"
+          city_name: "Dorking"
         },
         {
           name: "Matt Worswick at The Latymer",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Bagshot  GU EU"
+          city_name: "Bagshot"
         },
         {
           name: "Gravetye Manor",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Gravetye  RH LJ"
+          city_name: "Gravetye"
         },
         {
           name: "L'Ortolan",
           stars: 1,
           price: null,
           cuisine_name: "French",
-          city_name: "Shinfield  RG BY"
+          city_name: "Shinfield"
         },
         {
           name: "Restaurant Tristan",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Horsham  RH HU"
+          city_name: "Horsham"
         },
         {
           name: "Blackbird",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Newbury  RG AQ"
+          city_name: "Newbury"
         },
         {
           name: "Woodspeen",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Newbury  RG BN"
+          city_name: "Newbury"
         },
         {
           name: "The Dining Room",
           stars: 1,
           price: null,
           cuisine_name: "Asian influences",
-          city_name: "Malmesbury  SN RB"
+          city_name: "Malmesbury"
         },
         {
           name: "The Whitebrook",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Whitebrook  NP TX"
+          city_name: "Whitebrook"
         },
         {
           name: "Walnut Tree",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Llanddewi Skirrid  NP AW"
+          city_name: "Llanddewi Skirrid"
         },
         {
           name: "Bybrook",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Castle Combe  SN HR"
+          city_name: "Castle Combe"
         },
         {
           name: "Restaurant Hywel Jones by Lucknam Park",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Colerne  SN AZ"
+          city_name: ""
         },
         {
           name: "Red Lion Freehouse",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "East Chisenbury  SN AQ"
+          city_name: "East Chi"
         },
         {
           name: "Black Rat",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Winchester  SO HX"
+          city_name: "Win"
         },
         {
           name: "Olive Tree",
@@ -3403,14 +3403,14 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Chew Magna  BS TQ"
+          city_name: "Chew Magna"
         },
         {
           name: "James Sommerin",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Penarth  CF AU"
+          city_name: "Penarth"
         },
         {
           name: "Loam",
@@ -3431,70 +3431,70 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Cill Chainnigh/Kilkenny"
+          city_name: "Kilkenny"
         },
         {
           name: "Lady Helen",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Baile Mhic Andáin/Thomastown"
+          city_name: "Thomastown"
         },
         {
           name: "Wild Honey Inn",
           stars: 1,
           price: null,
           cuisine_name: "Classic cuisine",
-          city_name: "Lios Dúin Bhearna/Lisdoonvarna"
+          city_name: "Lisdoonvarna"
         },
         {
           name: "Thomas Carr @ The Olive Room",
           stars: 1,
           price: null,
           cuisine_name: "Seafood",
-          city_name: "Ilfracombe  EX DJ"
+          city_name: "Ilfracombe"
         },
         {
           name: "Masons Arms",
           stars: 1,
           price: null,
           cuisine_name: "Classic French",
-          city_name: "Knowstone  EX RY"
+          city_name: "Knowstone"
         },
         {
           name: "Lympstone Manor",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Lympstone  EX NZ"
+          city_name: "Lympstone"
         },
         {
           name: "House",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Aird Mhór/Ardmore"
+          city_name: "Ardmore"
         },
         {
           name: "Gidleigh Park",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Chagford  TQ HH"
+          city_name: "Chagford"
         },
         {
           name: "Elephant",
           stars: 1,
           price: null,
           cuisine_name: "Modern British",
-          city_name: "Torquay  TQ BH"
+          city_name: "Torquay"
         },
         {
           name: "Ichigo Ichie",
           stars: 1,
           price: null,
           cuisine_name: "Japanese",
-          city_name: "Corcaigh/Cork"
+          city_name: "Cork"
         },
         {
           name: "Restaurant Nathan Outlaw",
@@ -3515,28 +3515,28 @@ exports.seed = function(knex) {
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Padstow  PL AP"
+          city_name: "Padstow"
         },
         {
           name: "Samphire",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Saint Helier/SaintHélier  JE TQ"
+          city_name: "Saint Helier"
         },
         {
           name: "Bohemia",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Saint Helier/SaintHélier  JE UH"
+          city_name: "Saint Helier"
         },
         {
           name: "Driftwood",
           stars: 1,
           price: null,
           cuisine_name: "Modern cuisine",
-          city_name: "Portscatho  TR EW"
+          city_name: "Portscatho"
         },
         {
           name: "Chestnut",
@@ -3711,518 +3711,518 @@ exports.seed = function(knex) {
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Satsuki",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Masa",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Jean-Georges",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Per Se",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Café Boulud",
           stars: 1,
           price: "$$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Marea",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Seafood",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Sushi Noz",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Le Bernardin",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Seafood",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Daniel",
           stars: 1,
           price: "$$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The Modern",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Caviar Russe",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Aquavit",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Scandinavian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Gabriel Kreuther",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Del Posto",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Italian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Okuda",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "L'Atelier de Joël Robuchon",
           stars: 1,
           price: "$$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Le Grill de Joël Robuchon",
           stars: 1,
           price: "$$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Sushi Ginza Onodera",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Ai Fiori",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Italian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Agern",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Scandinavian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Café China",
           stars: 1,
           price: "$$",
           cuisine_name: "Chinese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Sushi Yasuda",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "NoMad",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Sushi Amane",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Noda",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Junoon",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Indian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Kosaka",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Tempura Matsui",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Wallsé",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Austrian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Bouley at Home",
           stars: 1,
           price: "$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Atomix",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Korean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Eleven Madison Park",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The Clocktower",
           stars: 1,
           price: "$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Aldea",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Mediterranean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Jeju Noodle Bar",
           stars: 1,
           price: "$$",
           cuisine_name: "Korean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Cote",
           stars: 1,
           price: "$$$",
           cuisine_name: "Korean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Gramercy Tavern",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Sushi Nakazawa",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Babbo",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Italian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Blue Hill",
           stars: 1,
           price: "$$$$",
           cuisine_name: "American",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Gotham Bar and Grill",
           stars: 1,
           price: "$$$$",
           cuisine_name: "American",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Casa Mono",
           stars: 1,
           price: "$$$",
           cuisine_name: "Spanish",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Nix",
           stars: 1,
           price: "$$$",
           cuisine_name: "Vegetarian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Carbone",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Italian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "ZZ's Clam Bar",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Seafood",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Casa Enríque",
           stars: 1,
           price: "$$",
           cuisine_name: "Mexican",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Hirohisa",
           stars: 1,
           price: "$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Kanoyama",
           stars: 1,
           price: "$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Ko",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Jewel Bako",
           stars: 1,
           price: "$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Jungsik",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Korean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Bâtard",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Kajitsu",
           stars: 1,
           price: "$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The Musket Room",
           stars: 1,
           price: "$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Kyo Ya",
           stars: 1,
           price: "$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Le Coucou",
           stars: 1,
           price: "$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Uncle Boons",
           stars: 1,
           price: "$$",
           cuisine_name: "Thai",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Atera",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Bar Uchū",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Ichimura at Uchū",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Japanese",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "L'Appart",
           stars: 1,
           price: "$$$$",
           cuisine_name: "French",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Tuome",
           stars: 1,
           price: "$$",
           cuisine_name: "Fusion",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Contra",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Oxomoco",
           stars: 1,
           price: "$$$",
           cuisine_name: "Mexican",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The River Café",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Aska",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Scandinavian",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Meadowsweet",
           stars: 1,
           price: "$$$",
           cuisine_name: "Mediterranean",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Peter Luger",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Steakhouse",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Chef's Table at Brooklyn Fare",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Blanca",
           stars: 1,
           price: "$$$$",
           cuisine_name: "Contemporary",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Faro",
           stars: 1,
           price: "$$",
           cuisine_name: "American",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The Finch",
           stars: 1,
           price: "$$$",
           cuisine_name: "American",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "Claro",
           stars: 1,
           price: "$$",
           cuisine_name: "Mexican",
-          city_name: "New York"
+          city_name: "New York City"
         },
         {
           name: "The Inn at Little Washington",

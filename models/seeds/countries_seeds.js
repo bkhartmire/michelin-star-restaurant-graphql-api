@@ -34,7 +34,8 @@ exports.seed = function(knex) {
         { name: "Finland" },
         { name: "Hungary" },
         { name: "Greece" },
-        { name: "Iceland" }
+        { name: "Iceland" },
+        { name: "Poland" }
       ]);
     });
 };
