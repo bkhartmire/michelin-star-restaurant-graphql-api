@@ -33,7 +33,7 @@ const schema = buildSchema(`
         Country(name: String!): Country
         Cities: [City]
         City(name: String!): City
-        Restaurants(stars: Int = 0): [Restaurant]
+        Restaurants(stars: Int = 0, cuisine: String, city: String, price: String): [Restaurant]
         Restaurant(name: String!): Restaurant
     }
 

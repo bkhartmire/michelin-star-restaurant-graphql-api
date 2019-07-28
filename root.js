@@ -88,14 +88,31 @@ const root = {
   },
 
   Restaurants: async args => {
-    let restaurants;
+    if (args.price && !["$", "$$", "$$$", "$$$$", "$$$$$"].includes(args.price))
+      throw new Error(
+        "Please enter a valid price string: $, $$, $$$, $$$$, or $$$$$."
+      );
+    const whereObj = {};
     if (args.stars > 0 && args.stars < 4) {
-      restaurants = await knex("restaurants")
-        .where({ stars: args.stars })
-        .select();
-    } else {
-      restaurants = await knex("restaurants").select();
+      whereObj.stars = args.stars;
     }
+    if (args.cuisine) {
+      whereObj.cuisine_name = args.cuisine;
+    }
+    if (args.city) {
+      whereObj.city_name = args.city;
+    }
+    if (args.price) {
+      whereObj.price = args.price;
+    }
+
+    const restaurants = await knex("restaurants")
+      .where(whereObj)
+      .select();
+
+    if (restaurants.length === 0)
+      throw new Error("Sorry, no restaurants match your query.");
+
     for (const restaurant of restaurants) {
       restaurant.country_name = await getCountry(restaurant.city_name);
     }
