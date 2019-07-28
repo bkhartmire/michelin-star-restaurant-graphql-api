@@ -51,9 +51,9 @@ const schema = buildSchema(`
     }
 
     type Mutation {
-        AddRestaurant(info: NewRestaurant): Restaurant
-        EditRestaurant(id: Int, edits: NewRestaurant): Restaurant
-        DeleteRestaurant(id: Int): String
+        AddRestaurant(info: NewRestaurant, secretToken: String!): Restaurant
+        EditRestaurant(id: Int, edits: NewRestaurant, secretToken: String!): Restaurant
+        DeleteRestaurant(id: Int, secretToken: String!): String
     }
 
 `);

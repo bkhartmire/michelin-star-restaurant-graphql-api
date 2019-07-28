@@ -1,5 +1,6 @@
 const config = require("./config");
 const knex = require("knex")(config.db);
+require("dotenv").config();
 
 const getRestaurants = async (attribute, value) => {
   const restaurants = await knex("restaurants")
@@ -20,6 +21,36 @@ const getCountry = async city => {
     .where({ name: city })
     .select("country_name");
   return country.pop().country_name;
+};
+
+const validateRestaurant = info => {
+  console.log("INSIDE");
+  console.log(info);
+  const requiredKeys = [
+    "name",
+    "cuisine_name",
+    "city_name",
+    "country_name",
+    "stars",
+    "price"
+  ];
+  const validPrice = "$$$$$";
+  if (JSON.stringify(Object.keys(info)) !== JSON.stringify(requiredKeys)) {
+    throw new Error(`You must provide the following keys: ${requiredKeys}`);
+  } else if (info.stars < 0 || info.stars > 3) {
+    throw new Error("Restaurant must have 1, 2, or 3 stars.");
+  } else if (!validPrice.includes(info.price)) {
+    throw new Error("Price must be between $ and $$$$$.");
+  } else if (
+    info.name.length === 0 ||
+    info.cuisine_name.length === 0 ||
+    info.city_name.length === 0 ||
+    info.country_name.length === 0
+  ) {
+    throw new Error("Strings cannot be empty.");
+  } else {
+    return true;
+  }
 };
 
 const root = {
@@ -151,10 +182,55 @@ const root = {
     return restaurant;
   },
 
-  AddRestaurant: async args => {},
+  AddRestaurant: async args => {
+    if (args.secretToken !== process.env.SECRET_TOKEN)
+      throw new Error("invalid token");
+    if (validateRestaurant(args.info)) {
+      const countryName = args.info.country_name;
+      const cityName = args.info.city_name;
+      delete args.info.country_name;
 
-  EditRestaurant: async args => {},
+      const country = await knex("countries")
+        .where({ name: countryName })
+        .select();
+      if (country.length === 0) {
+        await knex("countires").insert({ name: countryName });
+      }
 
-  DeleteRestaurant: async args => {}
+      const city = await knex("cities")
+        .where({ name: cityName })
+        .select();
+      if (city.length === 0) {
+        await knex("cities").insert({
+          name: cityName,
+          country_name: countryName
+        });
+      }
+
+      const restaurant = await knex("restaurants")
+        .where(args.info)
+        .select();
+      if (restaurant.length > 0) {
+        throw new Error("That restaurant already exists.");
+      } else {
+        await knex("restaurants").insert(args.info);
+      }
+
+      const result = await knex("restaurants")
+        .where(args.info)
+        .select();
+      return result.pop();
+    }
+  },
+
+  EditRestaurant: async args => {
+    if (args.secretToken !== process.env.SECRET_TOKEN)
+      throw new Error("invalid token");
+  },
+
+  DeleteRestaurant: async args => {
+    if (args.secretToken !== process.env.SECRET_TOKEN)
+      throw new Error("invalid token");
+  }
 };
 module.exports = root;
