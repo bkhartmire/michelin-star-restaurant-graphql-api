@@ -1,8 +1,7 @@
-<div align="center">
-<img src="https://cdn-images-1.medium.com/max/1000/1*IvCDlfi3vQfgyKO1eFv4jA.png" alt="graphql logo" width="25%" style="padding-bottom: 10px;">
-<img src="./images/postgresql.png" alt="postgres logo" width="25%" style="padding: 0px 20px 0px 0px;">
-<img src="./images/knex.png" alt="knex logo" width="20%" style="padding: 0px 7px 10px 0px;">
-<img src="./images/michelin.png" alt="michelin_logo" style="padding-left: 10px" width="13%">
+<div align="center" style="padding-top: 10px;">
+<img src="https://cdn-images-1.medium.com/max/1000/1*IvCDlfi3vQfgyKO1eFv4jA.png" alt="graphql logo" width="30%">
+<img src="./images/postgresql.png" alt="postgres logo" width="30%" >
+<img src="./images/knex.png" alt="knex logo" width="30%" >
 </div>
 
 # cc9-michelin-restaurant-api
