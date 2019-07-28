@@ -15,6 +15,13 @@ const getCities = async country => {
   return cities;
 };
 
+const getCountry = async city => {
+  const country = await knex("cities")
+    .where({ name: city })
+    .select("country_name");
+  return country.pop().country_name;
+};
+
 const root = {
   Cuisines: async () => {
     const result = await knex("cuisines").select();
@@ -77,6 +84,19 @@ const root = {
 
   Restaurants: async () => {
     const restaurants = await knex("restaurants").select();
+    for (const restaurant of restaurants) {
+      restaurant.country_name = await getCountry(restaurant.city_name);
+    }
+    return restaurants;
+  },
+
+  Restaurant: async args => {
+    let restaurant = await knex("restaurants")
+      .where({ name: args.name })
+      .select();
+    restaurant = restaurant.pop();
+    restaurant.country_name = getCountry(restaurant.city_name);
+    return restaurant;
   }
 };
 module.exports = root;

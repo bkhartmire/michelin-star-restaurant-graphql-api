@@ -21,6 +21,7 @@ const schema = buildSchema(`
         name: String
         cuisine_name: String
         city_name: String
+        country_name: String
         stars: Int
         price: String
     }
