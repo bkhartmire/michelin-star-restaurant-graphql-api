@@ -1,8 +1,7 @@
 const rp = require("request-promise");
 const $ = require("cheerio");
-
 let page = 1;
-let stars = 1;
+
 const baseURL =
   "https://guide.michelin.com/en/restaurants/3-stars-michelin/2-stars-michelin/1-star-michelin/page/";
 const restaurantSeeds = [];
@@ -30,7 +29,21 @@ const parseRestaurant = html => {
   if (!citySeeds.some(cityObj => cityObj.name === city)) {
     citySeeds.push({ name: city });
   }
-
+  const starSymbol = $(".fa-michelin", html).text();
+  let stars;
+  switch (starSymbol) {
+    case "m":
+      stars = 1;
+      break;
+    case "n":
+      stars = 2;
+      break;
+    case "o":
+      stars = 3;
+      break;
+    default:
+      stars = null;
+  }
   restaurantSeeds.push({
     name: name,
     stars: stars,
@@ -67,6 +80,12 @@ const scraper = () => {
 
 const getRestaurants = async () => {
   await scraper();
+  const stars = [];
+  for (const item of restaurantSeeds) {
+    stars.push(item.stars);
+  }
+
+  console.log(stars.slice(600));
 };
 
 getRestaurants();

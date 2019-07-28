@@ -12,21 +12,21 @@ exports.seed = function(knex) {
         },
         {
           name: "RAW",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "Innovative",
           city_name: "Taipei"
         },
         {
           name: "Shoun RyuGin",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Japanese contemporary",
           city_name: "Taipei"
         },
         {
           name: "Taïrroir",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "Innovative",
           city_name: "Taipei"
@@ -54,7 +54,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sushi Amamoto",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Sushi",
           city_name: "Taipei"
@@ -145,14 +145,14 @@ exports.seed = function(knex) {
         },
         {
           name: "The Guest House",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Sichuan-Huai Yang",
           city_name: "Taipei"
         },
         {
           name: "Le Palais",
-          stars: 1,
+          stars: 3,
           price: "$$",
           cuisine_name: "Cantonese",
           city_name: "Taipei"
@@ -236,7 +236,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sun Tung Lok",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
@@ -264,7 +264,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Yan Toh Heen",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
@@ -278,7 +278,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Forum",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
@@ -292,7 +292,7 @@ exports.seed = function(knex) {
         },
         {
           name: "T'ang Court",
-          stars: 1,
+          stars: 3,
           price: "$$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
@@ -327,7 +327,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Tin Lung Heen",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
@@ -341,7 +341,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Tenku RyuGin",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Japanese",
           city_name: "Hong Kong"
@@ -397,21 +397,21 @@ exports.seed = function(knex) {
         },
         {
           name: "Bo Innovation",
-          stars: 1,
+          stars: 3,
           price: "$$$$$",
           cuisine_name: "Innovative",
           city_name: "Hong Kong"
         },
         {
           name: "Lung King Heen",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
         },
         {
           name: "Sushi Saito",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Sushi",
           city_name: "Hong Kong"
@@ -425,7 +425,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Caprice",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "French",
           city_name: "Hong Kong"
@@ -446,21 +446,21 @@ exports.seed = function(knex) {
         },
         {
           name: "Pierre",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Hong Kong"
         },
         {
           name: "Ying Jee Club",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Cantonese",
           city_name: "Hong Kong"
         },
         {
           name: "8½ Otto e Mezzo - Bombana",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Italian",
           city_name: "Hong Kong"
@@ -474,7 +474,7 @@ exports.seed = function(knex) {
         },
         {
           name: "L'Atelier de Joël Robuchon",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Hong Kong"
@@ -495,7 +495,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Amber",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Hong Kong"
@@ -509,14 +509,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Écriture",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "French contemporary",
           city_name: "Hong Kong"
         },
         {
           name: "Ta Vie",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Innovative",
           city_name: "Hong Kong"
@@ -558,7 +558,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Kashiwaya",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Japanese",
           city_name: "Hong Kong"
@@ -579,7 +579,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sushi Shikon",
-          stars: 1,
+          stars: 3,
           price: "$$$$$",
           cuisine_name: "Sushi",
           city_name: "Hong Kong"
@@ -614,14 +614,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Feng Wei Ju",
-          stars: 1,
+          stars: 2,
           price: "$",
           cuisine_name: "Hunanese and Sichuan",
           city_name: "Macau"
         },
         {
           name: "Golden Flower",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Chinese",
           city_name: "Macau"
@@ -642,14 +642,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Robuchon au Dôme",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Macau"
         },
         {
           name: "Mizumi (Macau)",
-          stars: 1,
+          stars: 2,
           price: "$$",
           cuisine_name: "Japanese",
           city_name: "Macau"
@@ -663,7 +663,7 @@ exports.seed = function(knex) {
         },
         {
           name: "The Eight",
-          stars: 1,
+          stars: 3,
           price: "$$$",
           cuisine_name: "Chinese",
           city_name: "Macau"
@@ -677,14 +677,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Jade Dragon",
-          stars: 1,
+          stars: 3,
           price: "$$",
           cuisine_name: "Cantonese",
           city_name: "Macau"
         },
         {
           name: "The Tasting Room",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "French contemporary",
           city_name: "Macau"
@@ -712,7 +712,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Alain Ducasse at Morpheus",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "French contemporary",
           city_name: "Macau"
@@ -845,7 +845,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Gaggan",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Innovative",
           city_name: "Bangkok"
@@ -873,7 +873,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sühring",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "European contemporary",
           city_name: "Bangkok"
@@ -901,14 +901,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Mezzaluna",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Innovative",
           city_name: "Bangkok"
         },
         {
           name: "Le Normandie",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Bangkok"
@@ -1020,7 +1020,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Waku Ghin",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Japanese contemporary",
           city_name: "Singapore"
@@ -1034,21 +1034,21 @@ exports.seed = function(knex) {
         },
         {
           name: "Les Amis",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "French",
           city_name: "Singapore"
         },
         {
           name: "Shisen Hanten",
-          stars: 1,
+          stars: 2,
           price: "$",
           cuisine_name: "Chinese",
           city_name: "Singapore"
         },
         {
           name: "Odette",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French contemporary",
           city_name: "Singapore"
@@ -1076,7 +1076,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Shoukouwa",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Sushi",
           city_name: "Singapore"
@@ -1244,7 +1244,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Fäviken Magasinet",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Järpen"
@@ -1286,14 +1286,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Gastrologik",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Stockholm"
         },
         {
           name: "Oaxen Krog",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Stockholm"
@@ -1321,7 +1321,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Frantzén",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Stockholm"
@@ -1342,7 +1342,7 @@ exports.seed = function(knex) {
         },
         {
           name: "SingleThread",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1356,7 +1356,7 @@ exports.seed = function(knex) {
         },
         {
           name: "The Restaurant at Meadowood",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1370,7 +1370,7 @@ exports.seed = function(knex) {
         },
         {
           name: "The French Laundry",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1433,7 +1433,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Atelier Crenn",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1496,7 +1496,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Acquerello",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Italian",
           city_name: "San Francisco"
@@ -1517,7 +1517,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Coi",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1531,7 +1531,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Quince",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1552,7 +1552,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Campton Place",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Indian",
           city_name: "San Francisco"
@@ -1615,28 +1615,28 @@ exports.seed = function(knex) {
         },
         {
           name: "Lazy Bear",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
         },
         {
           name: "Benu",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Asian",
           city_name: "San Francisco"
         },
         {
           name: "Saison",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Californian",
           city_name: "San Francisco"
         },
         {
           name: "Californios",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Mexican",
           city_name: "San Francisco"
@@ -1664,7 +1664,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Commis",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1713,7 +1713,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Baumé",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1734,7 +1734,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Manresa",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "San Francisco"
@@ -1748,7 +1748,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Maaemo",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Oslo"
@@ -1832,7 +1832,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Daniel Berlin",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "SkåneTranås"
@@ -1860,7 +1860,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Vollmers",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Malmö"
@@ -1895,14 +1895,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Geranium",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Copenhagen"
         },
         {
           name: "noma",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Copenhagen"
@@ -1916,7 +1916,7 @@ exports.seed = function(knex) {
         },
         {
           name: "a‚o‚c",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Copenhagen"
@@ -1972,7 +1972,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Kadeau Copenhagen",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Copenhagen"
@@ -2007,7 +2007,7 @@ exports.seed = function(knex) {
         },
         {
           name: "KOKS",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Creative",
           city_name: "Leynar"
@@ -2063,7 +2063,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Henne Kirkeby Kro",
-          stars: 1,
+          stars: 2,
           price: "$$$",
           cuisine_name: "Classic cuisine",
           city_name: "Henne"
@@ -2091,7 +2091,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Onyx",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Budapest"
@@ -2126,14 +2126,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Amador",
-          stars: 1,
+          stars: 3,
           price: "$$$$$",
           cuisine_name: "Creative",
           city_name: "Vienna"
         },
         {
           name: "Mraz & Sohn",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Creative",
           city_name: "Vienna"
@@ -2147,7 +2147,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Konstantin Filippou",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Vienna"
@@ -2175,14 +2175,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Silvio Nickol Gourmet Restaurant",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Modern cuisine",
           city_name: "Vienna"
         },
         {
           name: "Steirereck im Stadtpark",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Creative",
           city_name: "Vienna"
@@ -2238,7 +2238,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Andrew Fairlie at Gleneagles",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Creative French",
           city_name: "Auchterarder"
@@ -2287,7 +2287,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Raby Hunt",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern British",
           city_name: "Summerhouse"
@@ -2301,7 +2301,7 @@ exports.seed = function(knex) {
         },
         {
           name: "SENNS.Restaurant",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Creative",
           city_name: "Salzburg"
@@ -2322,7 +2322,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Ikarus",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "Creative",
           city_name: "Salzburg"
@@ -2399,7 +2399,7 @@ exports.seed = function(knex) {
         },
         {
           name: "L'Enclume",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Creative",
           city_name: "Cartmel"
@@ -2455,14 +2455,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Moor Hall",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern British",
           city_name: "Aughton"
         },
         {
           name: "Restaurant Sat Bains",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Creative",
           city_name: "Nottingham"
@@ -2504,7 +2504,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Midsummer House",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern cuisine",
           city_name: "Cambridge"
@@ -2539,7 +2539,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Spondi",
-          stars: 1,
+          stars: 2,
           price: "$$$$$",
           cuisine_name: "French",
           city_name: "Athína"
@@ -2728,7 +2728,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Kitchen Table at Bubbledogs",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern cuisine",
           city_name: "London"
@@ -2805,7 +2805,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sketch (The Lecture Room & Library)",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern French",
           city_name: "London"
@@ -2819,7 +2819,7 @@ exports.seed = function(knex) {
         },
         {
           name: "The Araki",
-          stars: 1,
+          stars: 3,
           price: null,
           cuisine_name: "Japanese",
           city_name: "London"
@@ -2854,7 +2854,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Umu",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Japanese",
           city_name: "London"
@@ -2910,7 +2910,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Hélène Darroze at The Connaught",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern cuisine",
           city_name: "London"
@@ -2924,7 +2924,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Le Gavroche",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "French",
           city_name: "London"
@@ -2952,14 +2952,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Greenhouse",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Creative",
           city_name: "London"
         },
         {
           name: "Alain Ducasse at The Dorchester",
-          stars: 1,
+          stars: 3,
           price: null,
           cuisine_name: "French",
           city_name: "London"
@@ -3001,14 +3001,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Dinner by Heston Blumenthal",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Traditional British",
           city_name: "London"
         },
         {
           name: "Ledbury",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern cuisine",
           city_name: "London"
@@ -3036,7 +3036,7 @@ exports.seed = function(knex) {
         },
         {
           name: "CORE by Clare Smyth",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern British",
           city_name: "London"
@@ -3050,7 +3050,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Claude Bosi at Bibendum",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "French",
           city_name: "London"
@@ -3071,7 +3071,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Gordon Ramsay",
-          stars: 1,
+          stars: 3,
           price: null,
           cuisine_name: "French",
           city_name: "London"
@@ -3141,7 +3141,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Belmond Le Manoir aux Quat' Saisons",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "French",
           city_name: "Great Milton"
@@ -3162,7 +3162,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Hand and Flowers",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern British",
           city_name: "Marlow"
@@ -3176,14 +3176,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Fat Duck",
-          stars: 1,
+          stars: 3,
           price: null,
           cuisine_name: "Creative",
           city_name: "Bray"
         },
         {
           name: "Waterside Inn",
-          stars: 1,
+          stars: 3,
           price: null,
           cuisine_name: "Classic French",
           city_name: "Bray"
@@ -3211,7 +3211,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Patrick Guilbaud",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Modern French",
           city_name: "Dublin"
@@ -3498,7 +3498,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Restaurant Nathan Outlaw",
-          stars: 1,
+          stars: 2,
           price: null,
           cuisine_name: "Seafood",
           city_name: "Port Isaac"
@@ -3610,7 +3610,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Alinea",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Chicago"
@@ -3624,7 +3624,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Smyth",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Chicago"
@@ -3652,7 +3652,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Oriole",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Chicago"
@@ -3701,7 +3701,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Acadia",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Chicago"
@@ -3722,21 +3722,21 @@ exports.seed = function(knex) {
         },
         {
           name: "Masa",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Japanese",
           city_name: "New York City"
         },
         {
           name: "Jean-Georges",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
         },
         {
           name: "Per Se",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -3750,7 +3750,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Marea",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Seafood",
           city_name: "New York City"
@@ -3764,21 +3764,21 @@ exports.seed = function(knex) {
         },
         {
           name: "Le Bernardin",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Seafood",
           city_name: "New York City"
         },
         {
           name: "Daniel",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French",
           city_name: "New York City"
         },
         {
           name: "The Modern",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -3792,14 +3792,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Aquavit",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Scandinavian",
           city_name: "New York City"
         },
         {
           name: "Gabriel Kreuther",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -3820,7 +3820,7 @@ exports.seed = function(knex) {
         },
         {
           name: "L'Atelier de Joël Robuchon",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "French",
           city_name: "New York City"
@@ -3834,7 +3834,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Sushi Ginza Onodera",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Japanese",
           city_name: "New York City"
@@ -3932,7 +3932,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Eleven Madison Park",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -4051,7 +4051,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Ko",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -4065,7 +4065,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Jungsik",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Korean",
           city_name: "New York City"
@@ -4114,7 +4114,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Atera",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -4128,7 +4128,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Ichimura at Uchū",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Japanese",
           city_name: "New York City"
@@ -4170,7 +4170,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Aska",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Scandinavian",
           city_name: "New York City"
@@ -4191,14 +4191,14 @@ exports.seed = function(knex) {
         },
         {
           name: "Chef's Table at Brooklyn Fare",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
         },
         {
           name: "Blanca",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "New York City"
@@ -4226,7 +4226,7 @@ exports.seed = function(knex) {
         },
         {
           name: "The Inn at Little Washington",
-          stars: 1,
+          stars: 3,
           price: "$$$$",
           cuisine_name: "American",
           city_name: "Washington, D.C."
@@ -4303,7 +4303,7 @@ exports.seed = function(knex) {
         },
         {
           name: "minibar",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Washington, D.C."
@@ -4317,7 +4317,7 @@ exports.seed = function(knex) {
         },
         {
           name: "Pineapple and Pearls",
-          stars: 1,
+          stars: 2,
           price: "$$$$",
           cuisine_name: "Contemporary",
           city_name: "Washington, D.C."

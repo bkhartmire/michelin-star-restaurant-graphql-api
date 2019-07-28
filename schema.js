@@ -3,10 +3,12 @@ const { buildSchema } = require("graphql");
 const schema = buildSchema(`
     type Cuisine {
         name: String
+        restaurants: [Restaurant]
     }
 
     type Country {
         name: String
+        cities: [City]
     }
 
     type City {
@@ -26,15 +28,14 @@ const schema = buildSchema(`
         Cuisine(name: String!): Cuisine
         Countries: [Country]
         Country(name: String!): Country
-        Cities: [City]
-        City(name: String!): City
-        Restaurants: [Restaurant]
-        Restaurant(name: String!): Restaurant
     }
 
-    type Mutation {
-        
-    }
 `);
 
 module.exports = schema;
+
+// Country(name: String!): Country
+// Cities: [City]
+// City(name: String!): City
+// Restaurants: [Restaurant]
+// Restaurant(name: String!): Restaurant
