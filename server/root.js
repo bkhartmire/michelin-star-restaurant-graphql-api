@@ -49,7 +49,10 @@ const root = {
     if (cuisines.length === 0)
       throw new Error("Sorry, no cuisines match your query.");
     for (const cuisine of cuisines) {
-      cuisine.restaurants = getRestaurants("cuisine_name", cuisine.name);
+      cuisine.restaurants = await getRestaurants("cuisine_name", cuisine.name);
+      for (const restaurant of cuisine.restaurants) {
+        restaurant.country_name = await getCountry(restaurant.city_name);
+      }
     }
     return cuisines;
   },
@@ -61,7 +64,10 @@ const root = {
     if (cuisine.length === 0)
       throw new Error("Sorry, no cuisines match your query.");
     cuisine = cuisine.pop();
-    cuisine.restaurants = getRestaurants("cuisine_name", args.name);
+    cuisine.restaurants = await getRestaurants("cuisine_name", args.name);
+    for (const restaurant of cuisine.restaurants) {
+      restaurant.country_name = await getCountry(restaurant.city_name);
+    }
     return cuisine;
   },
 
