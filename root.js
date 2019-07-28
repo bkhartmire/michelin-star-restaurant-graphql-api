@@ -24,28 +24,15 @@ const getCountry = async city => {
 };
 
 const validateRestaurant = info => {
-  const requiredKeys = [
-    "name",
-    "cuisine_name",
-    "city_name",
-    "country_name",
-    "stars",
-    "price"
-  ];
   const validPrice = "$$$$$";
-  if (Object.keys(info).some(key => !requiredKeys.includes(key))) {
-    throw new Error(
-      "You must provide name, cuisine_name, city_name, stars, and price in your request. To add a new restaurant, you must also provide country_name."
-    );
-  } else if (info.stars < 0 || info.stars > 3) {
+  if (info.stars < 0 || info.stars > 3) {
     throw new Error("Restaurant must have 1, 2, or 3 stars.");
   } else if (!validPrice.includes(info.price)) {
     throw new Error("Price must be between $ and $$$$$.");
   } else if (
     info.name.length === 0 ||
     info.cuisine_name.length === 0 ||
-    info.city_name.length === 0 ||
-    info.country_name.length === 0
+    info.city_name.length === 0
   ) {
     throw new Error("Strings cannot be empty.");
   } else {
@@ -231,10 +218,9 @@ const root = {
 
     if (restaurant.length === 0) throw new Error("Invalid ID.");
     restaurant = restaurant.pop();
-    const tester = { ...restaurant, ...args.edits, country_name: "test" };
-    delete tester.id;
+    const result = { ...restaurant, ...args.edits };
 
-    if (validateRestaurant(tester)) {
+    if (validateRestaurant(result)) {
       if (Object.keys(args.edits).includes("city_name")) {
         const city = await knex("cities")
           .where({ name: args.edits.city_name })
@@ -248,10 +234,8 @@ const root = {
       await knex("restaurants")
         .where({ id: args.id })
         .update(args.edits);
-      const result = await knex("restaurants")
-        .where({ id: args.id })
-        .select();
-      return result.pop();
+      result.country_name = getCountry(result.city_name);
+      return result;
     }
   },
 
