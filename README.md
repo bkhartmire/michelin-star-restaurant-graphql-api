@@ -28,4 +28,9 @@ Run the following commands to seed the database. Some tables are dependent on ot
 ## 2. Server Quick Start
 
 Run `yarn start` to start the server.
-Visit `http://localhost:3000/graphql` to test that the server is running. Here you can also see documentation and fulfill GraphQL queries.
+
+Run `yarn dev` instead to automatically restart the server when any file changes thanks to `nodemon`.
+
+Visit `http://localhost:3000` to test that the server is running.
+
+Visit `http://localhost:3000/graphql` to see documentation and fulfill GraphQL queries.
