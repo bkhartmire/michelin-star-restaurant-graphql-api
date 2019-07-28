@@ -1,4 +1,4 @@
-exports.up = function(knex) {
+exports.up = function (knex) {
   return knex.schema.createTable("cities", t => {
     t.increments().index();
     t.string("name")
@@ -11,6 +11,6 @@ exports.up = function(knex) {
   });
 };
 
-exports.down = function(knex) {
+exports.down = function (knex) {
   knex.schema.dropTable("cities");
 };

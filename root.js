@@ -21,12 +21,12 @@ const root = {
     return cuisine;
   },
 
-  Country: async () => {
+  Countries: async () => {
     const result = await knex("countries").select();
     return result;
   },
 
-  Countries: async args => {
+  Country: async args => {
     let country = await knex("countries")
       .where({ name: args.name })
       .select();
