@@ -2,22 +2,26 @@ const { buildSchema } = require("graphql");
 
 const schema = buildSchema(`
     type Cuisine {
+        id: Int
         name: String
         restaurants: [Restaurant]
     }
 
     type Country {
+        id: Int
         name: String
         cities: [City]
     }
 
     type City {
+        id: Int
         name: String
         country_name: String
         restaurants: [Restaurant]
     }
 
     type Restaurant {
+        id: Int
         name: String
         cuisine_name: String
         city_name: String
@@ -35,6 +39,21 @@ const schema = buildSchema(`
         City(name: String!): City
         Restaurants(stars: Int = 0, cuisine: String, city: String, price: String, limit: Int, offset: Int): [Restaurant]
         Restaurant(name: String!): Restaurant
+    }
+
+    input NewRestaurant {
+        name: String
+        cuisine_name: String
+        city_name: String
+        country_name: String
+        stars: Int
+        price: String
+    }
+
+    type Mutation {
+        AddRestaurant(info: NewRestaurant): Restaurant
+        EditRestaurant(id: Int, edits: NewRestaurant): Restaurant
+        DeleteRestaurant(id: Int): String
     }
 
 `);

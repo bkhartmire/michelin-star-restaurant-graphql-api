@@ -1,5 +1,9 @@
 # cc9-michelin-restaurant-api
 
+//make pretty readme
+//finish mutations
+//lightning talk
+
 yarn
 create PostGres database called michelin
 yarn migrate

@@ -149,6 +149,12 @@ const root = {
     restaurant = restaurant.pop();
     restaurant.country_name = getCountry(restaurant.city_name);
     return restaurant;
-  }
+  },
+
+  AddRestaurant: async args => {},
+
+  EditRestaurant: async args => {},
+
+  DeleteRestaurant: async args => {}
 };
 module.exports = root;
