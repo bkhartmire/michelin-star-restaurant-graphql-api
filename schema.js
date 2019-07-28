@@ -27,19 +27,16 @@ const schema = buildSchema(`
     }
 
     type Query {
-        Cuisines: [Cuisine]
+        Cuisines(limit: Int, offset: Int): [Cuisine]
         Cuisine(name: String!): Cuisine
-        Countries: [Country]
+        Countries(limit: Int, offset: Int): [Country]
         Country(name: String!): Country
-        Cities: [City]
+        Cities(limit: Int, offset: Int): [City]
         City(name: String!): City
-        Restaurants(stars: Int = 0, cuisine: String, city: String, price: String): [Restaurant]
+        Restaurants(stars: Int = 0, cuisine: String, city: String, price: String, limit: Int, offset: Int): [Restaurant]
         Restaurant(name: String!): Restaurant
     }
 
 `);
 
 module.exports = schema;
-
-// Restaurants: [Restaurant]
-// Restaurant(name: String!): Restaurant

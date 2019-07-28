@@ -1,8 +1,6 @@
 const config = require("./config");
 const knex = require("knex")(config.db);
 
-//to do: add limit params
-//restaurant stars
 const getRestaurants = async (attribute, value) => {
   const restaurants = await knex("restaurants")
     .where(attribute, value)
@@ -25,8 +23,13 @@ const getCountry = async city => {
 };
 
 const root = {
-  Cuisines: async () => {
-    const cuisines = await knex("cuisines").select();
+  Cuisines: async args => {
+    const cuisines = await knex("cuisines")
+      .select()
+      .limit(args.limit)
+      .offset(args.offset);
+    if (cuisines.length === 0)
+      throw new Error("Sorry, no cuisines match your query.");
     for (const cuisine of cuisines) {
       cuisine.restaurants = getRestaurants("cuisine_name", cuisine.name);
     }
@@ -37,13 +40,20 @@ const root = {
     let cuisine = await knex("cuisines")
       .where({ name: args.name })
       .select();
+    if (cuisine.length === 0)
+      throw new Error("Sorry, no cuisines match your query.");
     cuisine = cuisine.pop();
     cuisine.restaurants = getRestaurants("cuisine_name", args.name);
     return cuisine;
   },
 
-  Countries: async () => {
-    const countries = await knex("countries").select();
+  Countries: async args => {
+    const countries = await knex("countries")
+      .select()
+      .limit(args.limit)
+      .offset(args.offset);
+    if (countries.length === 0)
+      throw new Error("Sorry, no countries match your query.");
     for (const country of countries) {
       country.cities = await getCities(country.name);
       country.restaurants = [];
@@ -60,6 +70,8 @@ const root = {
       .where({ name: args.name })
 
       .select();
+    if (country.length === 0)
+      throw new Error("Sorry, no countries match your query.");
     country = country.pop();
     country.cities = getCities(country.name);
     country.restaurants = [];
@@ -70,8 +82,13 @@ const root = {
     return country;
   },
 
-  Cities: async () => {
-    const cities = await knex("cities").select();
+  Cities: async args => {
+    const cities = await knex("cities")
+      .select()
+      .limit(args.limit)
+      .offset(args.offset);
+    if (cities.length === 0)
+      throw new Error("Sorry, no cities match your query.");
     for (const city of cities) {
       city.restaurants = getRestaurants("city_name", city.name);
     }
@@ -82,6 +99,8 @@ const root = {
     let city = await knex("cities")
       .where({ name: args.name })
       .select();
+    if (city.length === 0)
+      throw new Error("Sorry, no cities match your query.");
     city = city.pop();
     city.restaurants = getRestaurants("city_name", args.name);
     return city;
@@ -108,7 +127,9 @@ const root = {
 
     const restaurants = await knex("restaurants")
       .where(whereObj)
-      .select();
+      .select()
+      .limit(args.limit)
+      .offset(args.offset);
 
     if (restaurants.length === 0)
       throw new Error("Sorry, no restaurants match your query.");
@@ -123,6 +144,8 @@ const root = {
     let restaurant = await knex("restaurants")
       .where({ name: args.name })
       .select();
+    if (restaurant.length === 0)
+      throw new Error("Sorry, no restaurants match your query.");
     restaurant = restaurant.pop();
     restaurant.country_name = getCountry(restaurant.city_name);
     return restaurant;
