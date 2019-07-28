@@ -1,6 +1,8 @@
 const config = require("./config");
 const knex = require("knex")(config.db);
 
+//to do: add limit params
+//restaurant stars
 const getRestaurants = async (attribute, value) => {
   const restaurants = await knex("restaurants")
     .where(attribute, value)
@@ -24,8 +26,11 @@ const getCountry = async city => {
 
 const root = {
   Cuisines: async () => {
-    const result = await knex("cuisines").select();
-    return result;
+    const cuisines = await knex("cuisines").select();
+    for (const cuisine of cuisines) {
+      cuisine.restaurants = getRestaurants("cuisine_name", cuisine.name);
+    }
+    return cuisines;
   },
 
   Cuisine: async args => {
@@ -82,8 +87,15 @@ const root = {
     return city;
   },
 
-  Restaurants: async () => {
-    const restaurants = await knex("restaurants").select();
+  Restaurants: async args => {
+    let restaurants;
+    if (args.stars > 0 && args.stars < 4) {
+      restaurants = await knex("restaurants")
+        .where({ stars: args.stars })
+        .select();
+    } else {
+      restaurants = await knex("restaurants").select();
+    }
     for (const restaurant of restaurants) {
       restaurant.country_name = await getCountry(restaurant.city_name);
     }
