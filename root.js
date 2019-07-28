@@ -259,6 +259,15 @@ const root = {
   DeleteRestaurant: async args => {
     if (args.secretToken !== process.env.SECRET_TOKEN)
       throw new Error("invalid token");
+    const restaurant = await knex("restaurants")
+      .where({ id: args.id })
+      .select();
+    if (restaurant.length === 0)
+      throw new Error("That restaurant does not exist.");
+    await knex("restaurants")
+      .where({ id: args.id })
+      .del();
+    return `${restaurant.pop().name} deleted from database.`;
   }
 };
 module.exports = root;

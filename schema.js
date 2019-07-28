@@ -59,15 +59,15 @@ const schema = buildSchema(`
     }
 
     input NewCity {
-        name: String
-        country_name: String
+        name: String!
+        country_name: String!
     }
 
     type Mutation {
         AddRestaurant(info: NewRestaurant!, secretToken: String!): Restaurant
         EditRestaurant(id: Int!, edits: EditRestaurant, secretToken: String!): Restaurant
         DeleteRestaurant(id: Int!, secretToken: String!): String,
-        AddCity(id: Int!, info: NewCity!, secretToken: String!)
+        AddCity(id: Int!, info: NewCity!, secretToken: String!): City
     }
 
 `);
