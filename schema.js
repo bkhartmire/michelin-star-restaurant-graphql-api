@@ -13,12 +13,14 @@ const schema = buildSchema(`
 
     type City {
         name: String
+        country_name: String
+        restaurants: [Restaurant]
     }
 
     type Restaurant {
         name: String
-        cuisine: Cuisine
-        city: City
+        cuisine_name: String
+        city_name: String
         stars: Int
         price: String
     }
@@ -28,14 +30,15 @@ const schema = buildSchema(`
         Cuisine(name: String!): Cuisine
         Countries: [Country]
         Country(name: String!): Country
+        Cities: [City]
+        City(name: String!): City
+        Restaurants: [Restaurant]
+        Restaurant(name: String!): Restaurant
     }
 
 `);
 
 module.exports = schema;
 
-// Country(name: String!): Country
-// Cities: [City]
-// City(name: String!): City
 // Restaurants: [Restaurant]
 // Restaurant(name: String!): Restaurant

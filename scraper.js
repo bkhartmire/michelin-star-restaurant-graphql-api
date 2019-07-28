@@ -80,12 +80,7 @@ const scraper = () => {
 
 const getRestaurants = async () => {
   await scraper();
-  const stars = [];
-  for (const item of restaurantSeeds) {
-    stars.push(item.stars);
-  }
-
-  console.log(stars.slice(600));
+  //insert console log statements here to see final results
 };
 
 getRestaurants();
