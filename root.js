@@ -24,8 +24,6 @@ const getCountry = async city => {
 };
 
 const validateRestaurant = info => {
-  console.log("INSIDE");
-  console.log(info);
   const requiredKeys = [
     "name",
     "cuisine_name",
@@ -35,8 +33,10 @@ const validateRestaurant = info => {
     "price"
   ];
   const validPrice = "$$$$$";
-  if (JSON.stringify(Object.keys(info)) !== JSON.stringify(requiredKeys)) {
-    throw new Error(`You must provide the following keys: ${requiredKeys}`);
+  if (Object.keys(info).some(key => !requiredKeys.includes(key))) {
+    throw new Error(
+      "You must provide name, cuisine_name, city_name, stars, and price in your request. To add a new restaurant, you must also provide country_name."
+    );
   } else if (info.stars < 0 || info.stars > 3) {
     throw new Error("Restaurant must have 1, 2, or 3 stars.");
   } else if (!validPrice.includes(info.price)) {
@@ -194,7 +194,7 @@ const root = {
         .where({ name: countryName })
         .select();
       if (country.length === 0) {
-        await knex("countires").insert({ name: countryName });
+        await knex("countries").insert({ name: countryName });
       }
 
       const city = await knex("cities")
@@ -226,6 +226,34 @@ const root = {
   EditRestaurant: async args => {
     if (args.secretToken !== process.env.SECRET_TOKEN)
       throw new Error("invalid token");
+    let restaurant = await knex("restaurants")
+      .where({ id: args.id })
+      .select();
+
+    if (restaurant.length === 0) throw new Error("Invalid ID.");
+    restaurant = restaurant.pop();
+    const tester = { ...restaurant, ...args.edits, country_name: "test" };
+    delete tester.id;
+
+    if (validateRestaurant(tester)) {
+      if (Object.keys(args.edits).includes("city_name")) {
+        const city = await knex("cities")
+          .where({ name: args.edits.city_name })
+          .select();
+        if (city.length === 0) {
+          throw new Error(
+            "City does not exist yet. Please add the city first with AddCity mutation."
+          );
+        }
+      }
+      await knex("restaurants")
+        .where({ id: args.id })
+        .update(args.edits);
+      const result = await knex("restaurants")
+        .where({ id: args.id })
+        .select();
+      return result.pop();
+    }
   },
 
   DeleteRestaurant: async args => {
@@ -234,3 +262,30 @@ const root = {
   }
 };
 module.exports = root;
+
+// if (Object.keys(args.edits).includes("country_name")) {
+//   const country = await knex("countries")
+//     .where({ name: args.edits.country_name })
+//     .select();
+//   if (country.length === 0) {
+//     await knex("countries").insert({ name: args.edits.country_name });
+//   }
+// }
+
+// let countryName;
+// if (args.edits.country_name) {
+//   countryName = args.edits.country_name;
+// } else {
+//   countryName = await knex("cities")
+//     .where({ name: restaurant.city_name })
+//     .select("country_name");
+//   countryName = countryName.pop().country_name;
+// }
+// await knex("cities").insert({
+//   name: args.edits.city_name,
+//   country_name: countryName
+// });
+
+//should be able to add city. cannot add country. country added via adding city.
+// cannot edit country of restaurant but can edit city.
+// City must exist prior
