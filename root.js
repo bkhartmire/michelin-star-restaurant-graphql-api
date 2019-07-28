@@ -99,7 +99,6 @@ const root = {
   Country: async args => {
     let country = await knex("countries")
       .where({ name: args.name })
-
       .select();
     if (country.length === 0)
       throw new Error("Sorry, no countries match your query.");
@@ -268,33 +267,29 @@ const root = {
       .where({ id: args.id })
       .del();
     return `${restaurant.pop().name} deleted from database.`;
+  },
+
+  AddCity: async args => {
+    if (args.secretToken !== process.env.SECRET_TOKEN)
+      throw new Error("invalid token");
+    for (const property in args.info) {
+      if (property.length === 0) throw new Error("Strings cannot be empty.");
+    }
+    const checkCity = await knex("cities")
+      .where(args.info)
+      .select();
+    if (checkCity.length > 0) throw new Error("That city already exists.");
+    const country = await knex("countries")
+      .where({ name: args.info.country_name })
+      .select();
+    if (country.length === 0) {
+      await knex("countries").insert({ name: args.info.country_name });
+    }
+    await knex("cities").insert(args.info);
+    const city = await knex("cities")
+      .where(args.info)
+      .select();
+    return city.pop();
   }
 };
 module.exports = root;
-
-// if (Object.keys(args.edits).includes("country_name")) {
-//   const country = await knex("countries")
-//     .where({ name: args.edits.country_name })
-//     .select();
-//   if (country.length === 0) {
-//     await knex("countries").insert({ name: args.edits.country_name });
-//   }
-// }
-
-// let countryName;
-// if (args.edits.country_name) {
-//   countryName = args.edits.country_name;
-// } else {
-//   countryName = await knex("cities")
-//     .where({ name: restaurant.city_name })
-//     .select("country_name");
-//   countryName = countryName.pop().country_name;
-// }
-// await knex("cities").insert({
-//   name: args.edits.city_name,
-//   country_name: countryName
-// });
-
-//should be able to add city. cannot add country. country added via adding city.
-// cannot edit country of restaurant but can edit city.
-// City must exist prior

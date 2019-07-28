@@ -18,6 +18,12 @@ const schema = buildSchema(`
         name: String
         country_name: String
         restaurants: [Restaurant]
+    }   
+    
+    type NewCityOutput {
+        id: Int
+        name: String
+        country_name: String
     }
 
     type Restaurant {
@@ -67,7 +73,7 @@ const schema = buildSchema(`
         AddRestaurant(info: NewRestaurant!, secretToken: String!): Restaurant
         EditRestaurant(id: Int!, edits: EditRestaurant, secretToken: String!): Restaurant
         DeleteRestaurant(id: Int!, secretToken: String!): String,
-        AddCity(id: Int!, info: NewCity!, secretToken: String!): City
+        AddCity(info: NewCity!, secretToken: String!): NewCityOutput
     }
 
 `);
