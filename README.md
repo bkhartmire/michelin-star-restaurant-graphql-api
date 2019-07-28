@@ -1,13 +1,28 @@
+<img src="https://cdn-images-1.medium.com/max/1000/1*IvCDlfi3vQfgyKO1eFv4jA.png" alt="graphql" width="35%" style="padding-bottom: 20px;">
+<img src="./images/postgresql.png" alt="graphql" width="35%" style="padding: 20px 20px 0 0;">
+<img src="./images/michelin.png" alt="michelin_logo" width="20%">
+
 # cc9-michelin-restaurant-api
 
-//make pretty readme
-//finish mutations
-//lightning talk
+## 1. Set Up
 
-yarn
-create PostGres database called michelin
-yarn migrate
-yarn seed --specific=cuisines_seeds.js
-yarn seed --specific=countries_seeds.js
-yarn seed --specific=cities_seeds.js
-yarn seed --specific=restaurants_seeds.js
+Run `yarn` to install dependencies.
+
+You will need the [PostgresApp](https://postgresapp.com/) installed. Run `psql` and create a database name michelin by running `create database michelin;`. Connect to your database by running `\c michelin`.
+
+Run `yarn migrate` to set up the database.
+
+Run the following commands to seed the database. Some tables are dependent on others, so it's important that you run them in this order:
+
+`yarn seed --specific=cuisines_seeds.js`
+
+`yarn seed --specific=countries_seeds.js`
+
+`yarn seed --specific=cities_seeds.js`
+
+`yarn seed --specific=restaurants_seeds.js`
+
+## 2. Server Quick Start
+
+Run `yarn start` to start the server.
+Visit `http://localhost:3000/graphql` to test that the server is running. Here you can also see documentation and fulfill GraphQL queries.
