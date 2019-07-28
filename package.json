@@ -11,24 +11,26 @@
     "migrate": "knex migrate:latest --knexfile models/knexfile.js",
     "seed": "knex seed:run --knexfile models/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile models/knexfile.js ",
-    "lint": "eslint --fix --ext .js ."
+    "lint": "eslint --fix --ext .js .",
+    "test": "mocha ./test"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
-    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2",
     "knex": "^0.19.1",
-    "moment": "^2.24.0",
-    "morgan": "^1.9.1",
     "pg": "^7.12.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "mocha": "^6.2.0",
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^3.6.0",
     "eslint-config-problems": "^2.0.0",

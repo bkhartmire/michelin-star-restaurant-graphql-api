@@ -1,8 +1,11 @@
-<img src="https://cdn-images-1.medium.com/max/1000/1*IvCDlfi3vQfgyKO1eFv4jA.png" alt="graphql" width="35%" style="padding-bottom: 20px;">
-<img src="./images/postgresql.png" alt="graphql" width="35%" style="padding: 20px 20px 0 0;">
-<img src="./images/michelin.png" alt="michelin_logo" width="20%">
+<img src="https://cdn-images-1.medium.com/max/1000/1*IvCDlfi3vQfgyKO1eFv4jA.png" alt="graphql logo" width="25%" style="padding-bottom: 20px;">
+<img src="./images/postgresql.png" alt="postgres logo" width="25%" style="padding: 20px 20px 0 0;">
+<img src="./images/knex.png" alt="knex logo" width="20%" style="padding: 0 20px 28px 0;">
+<img src="./images/michelin.png" alt="michelin_logo" width="15%">
 
 # cc9-michelin-restaurant-api
+
+This was created during my time as a student at Code Chrysalis.
 
 ## 1. Set Up
 
