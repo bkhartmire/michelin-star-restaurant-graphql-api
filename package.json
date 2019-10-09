@@ -8,9 +8,9 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "migrate": "knex migrate:latest --knexfile models/knexfile.js",
-    "seed": "knex seed:run --knexfile models/knexfile.js",
-    "rollback": "knex migrate:rollback --knexfile models/knexfile.js ",
+    "migrate": "knex migrate:latest --knexfile server/models/knexfile.js",
+    "seed": "knex seed:run --knexfile serve/models/knexfile.js",
+    "rollback": "knex migrate:rollback --knexfile server/models/knexfile.js ",
     "lint": "eslint --fix --ext .js .",
     "test": "mocha ./test"
   },
