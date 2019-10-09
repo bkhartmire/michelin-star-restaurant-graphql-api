@@ -4,6 +4,10 @@ const graphqlHTTP = require("express-graphql");
 const app = express();
 const schema = require("./server/schema");
 const root = require("./server/root");
+const favicon = require("serve-favicon");
+const path = require("path");
+
+app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
 
 app.use(
   "/graphql",
