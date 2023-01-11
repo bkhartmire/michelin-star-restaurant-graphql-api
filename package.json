@@ -21,7 +21,7 @@
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2",
-    "knex": "^0.19.1",
+    "knex": "^2.4.0",
     "pg": "^7.12.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
